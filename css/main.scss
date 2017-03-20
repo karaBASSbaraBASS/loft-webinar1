@@ -1,0 +1,51 @@
+@import "_misc/normalize";
+
+/* --------- mixins --------- */
+
+@import "_misc/mixins";
+@import "_misc/fonts";
+
+/* --------- adjustment --------- */
+
+@import "_misc/adjustment";
+
+@import "style/styles";
+
+
+
+* {
+	box-sizing: border-box; // чтобы єлементы не добавлялись к размерам а входили в размер блока
+}
+
+.html {
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	background: #f0f0f0;
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.footer {
+	height: 115px;
+	margin-top: -115px;
+	position: relative; // выровняет (слой) приоритет наровне с врапером
+}
+
+.empty {
+	height: 115px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* --------- header --------- */
