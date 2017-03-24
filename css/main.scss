@@ -48,4 +48,38 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
 /* --------- header --------- */
+
+.header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb3e38+0,ff8f30+100 */
+background: #fb3e38; /* Old browsers */
+background: -moz-linear-gradient(left, #fb3e38 0%, #ff8f30 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fb3e38 0%,#ff8f30 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
+}
+
+.header__top {
+	@include clearfix;
+}
+
+.header__logo, .header__search, .header__menu {
+	float: left;
+}
+
+.header__logo {
+	wigth: 25%;
+}
+
+.header__search {
+	width: 40%;
+}
+
+.header__menu {
+	width: 35%;
+}
